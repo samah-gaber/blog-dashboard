@@ -1,0 +1,177 @@
+/*-----general layout-----*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	width: 100vw;
+	background-image: url(../img/bg-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+.txt-blue {
+	color: #204E5F;
+}
+.txt-grey {
+	color: #333333;
+}
+.bold {
+	font-family: arial;
+	font-weight: bold;
+}
+.regular {
+	font-family: arial;
+}
+.btn {
+	background-color: #F35D59;
+	color: #fff;
+	font-size: 18px;
+	padding: 15px 45px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+}
+/*-----nav-bar-----*/
+.header .nav-bar {
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+	box-sizing: border-box;
+}
+.header .nav-bar .logo {
+	height: 60px;
+	width: 100px;
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header .nav-bar ul {
+	list-style:none;
+}
+.header .nav-bar li {
+	display: inline-block;
+	margin-right: 45px;
+}
+.header .nav-bar ul li:last-child {
+	margin-right: 0;
+}
+.header .nav-bar li a {
+	font-size: 14px;
+	text-decoration: none;
+	padding-bottom:10px;
+	border-bottom: 2px solid transparent;
+}
+.header .nav-bar li a.current {
+	color: #F35D59;
+	border-color: #F35D59;
+}
+.header .nav-bar li a:hover {
+	color: #F35D59;
+}
+/*-----hero-sec-----*/
+.header .hero-sec {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.header .hero-sec .theme-pic {
+	background-image: url(../img/character.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 590px;
+	width: 550px;
+}
+.header .hero-sec .welcome-msg {
+	text-align: center;
+}
+.header .hero-sec .welcome-msg h1 {
+	font-size: 40px;
+	line-height: 55px;
+	margin-bottom: 45px;
+}
+.header .hero-sec .welcome-msg p {
+	font-size: 24px;
+	margin-bottom: 45px;
+}
+.header .hero-sec .welcome-msg .contact {
+	margin-bottom: 45px;
+}
+.header .hero-sec .welcome-msg a {
+	text-decoration: none;
+}
+.header .hero-sec .welcome-msg img {
+	width: 30px;
+}
+.header .hero-sec .welcome-msg img[alt="facebook-logo"] {
+	margin-right: 60px;
+}
+/*-----sign in form-----*/
+.form-sec {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.form-sec form {
+	background-color: #EDF7F5;
+	width: 60%;
+	padding: 100px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.form-sec form .email-field, .form-sec form .password-field {
+	text-align: left;
+	margin-bottom: 50px;
+}
+.form-sec form input {
+	display: block;
+	width: 100%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #C4C4C4;
+	margin: 20px 0;
+}
+.form-sec form input#password ~ p, .form-sec form input#email ~ p {
+	font-family: arial;
+	font-size: 14px;
+	color: red;
+}
+.form-sec form .error {
+	display: none;
+}
+/*-----footer-----*/
+.footer {
+	background-image: url(../img/bg-4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
+.footer .container {
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer .follow-sec h6 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.footer .follow-sec .icons a {
+	text-decoration: none;
+}
+.footer .follow-sec .icons img {
+	width: 25px;
+	margin-right: 15px;
+}
+.footer .copy-right p {
+	font-size: 14px;
+}

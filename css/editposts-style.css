@@ -1,0 +1,132 @@
+/*-----general layout-----*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body {
+	width: 100vw;
+	background-image: url(../img/bg-1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container {
+	width: 70%;
+	margin: 0 auto;
+}
+.txt-blue {
+	color: #204E5F;
+}
+.txt-grey {
+	color: #333333;
+}
+.bold {
+	font-family: arial;
+	font-weight: bold;
+}
+.regular {
+	font-family: arial;
+}
+.btn {
+	background-color: #F35D59;
+	color: #fff;
+	font-size: 18px;
+	padding: 15px 45px;
+	box-sizing: border-box;
+	border: none;
+	border-radius: 30px;
+}
+/*-----nav-bar-----*/
+.header {
+	margin-bottom: 70px;
+}
+.header .nav-bar {
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 0;
+	box-sizing: border-box;
+}
+.header .nav-bar .logo {
+	height: 60px;
+	width: 100px;
+	background-image: url(../img/logo.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.header .nav-bar ul {
+	list-style:none;
+}
+.header .nav-bar li {
+	display: inline-block;
+	margin-right: 45px;
+}
+.header .nav-bar ul li:last-child {
+	margin-right: 0;
+}
+.header .nav-bar li a {
+	font-size: 14px;
+	text-decoration: none;
+	padding-bottom:10px;
+	border-bottom: 2px solid transparent;
+}
+.header .nav-bar li a.current {
+	color: #F35D59;
+	border-color: #F35D59;
+}
+.header .nav-bar li a:hover {
+	color: #F35D59;
+}
+/*---form-----*/
+.edit-form {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.edit-form h4 {
+	font-size: 32px;
+	margin-bottom: 45px;
+}
+.edit-form form {
+	background-color: #EDF7F5;
+	width: 60%;
+	padding: 100px;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.edit-form form input {
+	width: 70%;
+	background-color: transparent;
+	border: 1px solid #C4C4C4;
+	padding: 25px 10px;
+	margin-bottom: 25px;
+}
+.edit-form form .post-title, .edit-form form .post-content, .edit-form form .buttons  {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.edit-form form .post-title {
+	font-size: 20px;
+}
+.edit-form form .post-content {
+	margin-bottom: 50px;
+	font-size: 16px;
+}
+.edit-form form textarea {
+	display: block;
+	width: 70%;
+	background-color: transparent;
+	border: 1px solid #C4C4C4;
+	padding: 25px 15px;
+}
+.edit-form form a {
+	text-decoration: none;
+	color: white;
+}
+.edit-form form label {
+	font-size: 20px;
+	margin-right: 15px;
+}
